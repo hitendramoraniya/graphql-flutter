@@ -1,0 +1,7 @@
+#query GetCountry($code: String!) {
+#  country(code: $code) {
+#    name,
+#    emoji
+#  }
+#}
+#
