@@ -1,0 +1,8 @@
+targets:
+  $default:
+    builders:
+      graphql_codegen:
+        options:
+          schema: "https://countries.trevorblades.com/graphql"  # GraphQL endpoint
+          documents: "lib/queries/**/*.graphql"                # Path to GraphQL query files
+          output: "lib/graphql_api.dart"                        # Output file for generated code
